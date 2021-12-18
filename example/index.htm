@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example</title>
+    <script defer type="module" src="./autoScroll.es6.js"></script>
+    <script defer type="module" src="./index.js"></script>
+    <!-- <script defer type="module" src="./app.js"></script> -->
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* height: 100vh; */
+            height: 100vh;
+            /* max-height: 100%; */
+            overflow-y: hidden;
+        }
+        .wrapper {
+            transform: translateY(0vh);
+            transition: transform 0.7s;
+            transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+        .section {
+            width: 100vw;
+            height: 100vh;
+            max-width: 100%;
+        }
+        .s1 {
+            background-color: aqua;
+        }
+        .s2 {
+            background-color: aquamarine;
+        }
+        .s3 {
+            background-color: cadetblue ;
+        }
+        .s4 {
+            background-color: rgb(37, 142, 146) ;
+        }
+        .s5 {
+            background-color: rgb(25, 48, 49) ;
+        }
+        .s6 {
+            background-color: rgb(95, 99, 160) ;
+        }
+        .s7 {
+            background-color: rgb(158, 95, 160) ;
+        }
+        .s8 {
+            background-color: rgb(108, 160, 95) ;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper" class="wrapper">
+        <div class="section s1"></div>
+        <div class="section s2"></div>
+        <div class="section s3"></div>
+        <div class="section s4"></div>
+        <div class="section s5"></div>
+        <div class="section s6"></div>
+        <div class="section s7"></div>
+        <div class="section s8"></div>
+
+    </div>
+</body>
+</html>

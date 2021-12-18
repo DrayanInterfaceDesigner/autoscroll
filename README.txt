@@ -1,0 +1,1 @@
+You must run it on a server because of CORS policy.

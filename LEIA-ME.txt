@@ -1,0 +1,4 @@
+Você precisa usar dentro de um servidor(live server por exemplo) por causa da política do CORS.
+
+Eu fiz esse script por que os que tinham na internet
+ou eram pagos ou não funcionavam.
